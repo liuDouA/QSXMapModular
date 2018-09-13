@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSXMapModular_Example' do
+  pod 'QSXMapModular', :path => '../'
+
+  target 'QSXMapModular_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
