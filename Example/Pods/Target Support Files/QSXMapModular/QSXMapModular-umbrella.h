@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SportsMapViewControlManager.h"
 
 FOUNDATION_EXPORT double QSXMapModularVersionNumber;
 FOUNDATION_EXPORT const unsigned char QSXMapModularVersionString[];
