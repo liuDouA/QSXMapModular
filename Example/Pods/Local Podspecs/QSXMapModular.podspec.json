@@ -1,0 +1,22 @@
+{
+  "name": "QSXMapModular",
+  "version": "0.1.0",
+  "summary": "A short description of QSXMapModular.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liudouA/QSXMapModular",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liudouA": "liudou@jd.com"
+  },
+  "source": {
+    "git": "https://github.com/liudouA/QSXMapModular.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QSXMapModular/Classes/**/*"
+}

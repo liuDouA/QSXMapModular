@@ -1,0 +1,6 @@
+framework module QSXMapModular {
+  umbrella header "QSXMapModular-umbrella.h"
+
+  export *
+  module * { export * }
+}

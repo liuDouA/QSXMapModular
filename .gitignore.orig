@@ -16,7 +16,6 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-
 ## Other
 *.moved-aside
 *.xccheckout
@@ -42,7 +41,6 @@ xcuserdata/
 # Carthage/Checkouts
 
 Carthage/Build
-
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the

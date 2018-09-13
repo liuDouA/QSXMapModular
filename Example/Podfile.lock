@@ -1,0 +1,16 @@
+PODS:
+  - QSXMapModular (0.1.0)
+
+DEPENDENCIES:
+  - QSXMapModular (from `../`)
+
+EXTERNAL SOURCES:
+  QSXMapModular:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QSXMapModular: a50c1d65573a5cae48a14a2d6f259ac1282a971b
+
+PODFILE CHECKSUM: 82493f69464201c25760affc2a01f3ad3f9d561b
+
+COCOAPODS: 1.5.3
