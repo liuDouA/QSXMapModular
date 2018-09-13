@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+#s.dependency 'AMap3DMap', '~> 6.4.0'
+#s.dependency 'AMapLocation', '~> 2.6.1'
+  s.static_framework = true
 end
