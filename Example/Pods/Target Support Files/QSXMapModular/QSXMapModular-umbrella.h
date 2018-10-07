@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "AMapRouteRecord.h"
+#import "FileHelper.h"
+#import "SystemInfo.h"
+#import "QSXMAPointAnnotation.h"
 #import "SportsMapViewControlManager.h"
 
 FOUNDATION_EXPORT double QSXMapModularVersionNumber;

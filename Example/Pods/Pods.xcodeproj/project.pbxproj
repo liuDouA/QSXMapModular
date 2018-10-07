@@ -7,122 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035A45B3EC74BA1017E03760063B3D79 /* SportsMapViewControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50645486542F7F581A1874D2CB8ADF /* SportsMapViewControlManager.m */; };
-		1C22FA9F8F7DF831722BF4C6C86BFF0B /* QSXMapModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A23E8DDDC345AAE2C449565D9FC8F3 /* QSXMapModular-dummy.m */; };
-		1F8CA51ECBAAAEA1107165397C721406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		221F9724896BAA1F10E3DC9D66F9F178 /* QSXMapModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA99356575348A43BCA892CBA0B0D68C /* QSXMapModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9746221E2FE7399335A68D7DB38EC2 /* SportsMapViewControlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9670D3A81793120B851F45436E0FEA82 /* SportsMapViewControlManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E12FDFE96BFCEC6CFCA21E5636A7A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5374BE1F2A9811AC61F74449D204457A /* Pods-QSXMapModular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2200B8F8D31713F77420171522D4E6 /* Pods-QSXMapModular_Example-dummy.m */; };
-		9C8D27B426889048B25CCE01DC48EEF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D60CCB68901568CE023BDF84B9148D5D /* Pods-QSXMapModular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A0D2A33B2C0099D9C98D7074432898 /* Pods-QSXMapModular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF7BCD8F159B79B4648A26FFA4AC83BC /* Pods-QSXMapModular_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4486D38E82B0D1A5745C56E2DE308B /* Pods-QSXMapModular_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB4E23E91AB39518768841FAE289C5FA /* Pods-QSXMapModular_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AF06273BC14C0665D0C3216E67E65 /* Pods-QSXMapModular_Tests-dummy.m */; };
+		0ABE0AC2FD6F22DF34808C907DE04968 /* SportsMapViewControlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1F96A84E7EDB45EEABC127CECC27F0 /* SportsMapViewControlManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D50B54218C5F66233BFE992E8EDB7E /* 再开始.png in Resources */ = {isa = PBXBuildFile; fileRef = AA87C23455B8235527351786688B23AF /* 再开始.png */; };
+		112627A4B3EA6867326E8351839F7DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		12AF083AEFF53B7F9AAB3D7563129ADC /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F56EADF31FEE3B4256655C91E73E0D78 /* FileHelper.m */; };
+		17A431D056FC16C5AC08175A803C0077 /* Pods-QSXMapModular_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AF06273BC14C0665D0C3216E67E65 /* Pods-QSXMapModular_Tests-dummy.m */; };
+		197727009B55A72C24D910C278E83D7D /* AMapRouteRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 994D1FD1CD6BA3CC102B51911CF4C3B9 /* AMapRouteRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0B11AB86E11FEDBCB6E22EC80B038D /* Pods-QSXMapModular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2200B8F8D31713F77420171522D4E6 /* Pods-QSXMapModular_Example-dummy.m */; };
+		1D6ECECF2302AC79C628FF198923BA07 /* AMapRouteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B31232902878A769A9BECA2A7CB6BA0A /* AMapRouteRecord.m */; };
+		2BB9DE821D271ACEEF9BFC351227CEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6041CADBD97FCF3122E96D060CC515CF /* QSXMapModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9379135CB184A9096B77D0E28548F665 /* QSXMapModular-dummy.m */; };
+		657390053EAF2C51906B89E00CC8D11A /* FileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7479C30494DC56411548B13C6253FF20 /* FileHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		681A14400504B64CF765D93C2EF3F8B0 /* QSXMAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E09573B3B70939AD4CCF7864DED81BCD /* QSXMAPointAnnotation.m */; };
+		69DCE0874F20A77A78D55021D93DF1DB /* QSXMapModular.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 966F95C7C135992029BB50CC59F52BA4 /* QSXMapModular.bundle */; };
+		7EBCF8E190F1C0C41B5A19AB3124D66C /* QSXMAPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 471E23F3434F7045CB67ECB25F69CE76 /* QSXMAPointAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEEFE87B4E66805C115612487FB2E83 /* SportsMapViewControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D55FC60A08848110F5B6494AB0FDE7 /* SportsMapViewControlManager.m */; };
+		82331FD2F38C015AE674BD0DAC85934C /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C5857705036B7DFD46FC1A5F4FB385 /* SystemInfo.m */; };
+		82D9853DD8584CB46BE1B3348778079D /* Pods-QSXMapModular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A0D2A33B2C0099D9C98D7074432898 /* Pods-QSXMapModular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DAADAD56A548CD37A968893B092BABE /* 暂停@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0222F48B2F365118CE5382082D09524A /* 暂停@2x.png */; };
+		B40928C5C6CDC54AAE2C4C0E82BF0439 /* Pods-QSXMapModular_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4486D38E82B0D1A5745C56E2DE308B /* Pods-QSXMapModular_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD35995AE2264D4876A67AF8AC3809F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D7DD1736045F1576EA4572CB3C81B205 /* 开始@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC12D4D3C20B9E91A12F82C9D547F8 /* 开始@2x.png */; };
+		DC9E72A748E58A19539063FA4B49BB88 /* SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EA9CB5B87DE793D05F2A89E8BA058F /* SystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A1F4F8202C2BFA6FF5BC02778A289E /* 结束.png in Resources */ = {isa = PBXBuildFile; fileRef = 3919CBF48FE78801E4CB249AF7E704F4 /* 结束.png */; };
+		EBAC54073C61A7C083FBFE7F40D8BC46 /* QSXMapModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 301A30ACDD836A57374AC8A5F848CBF5 /* QSXMapModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		080EBF80574DD598C2F91B436365C821 /* PBXContainerItemProxy */ = {
+		651379FE9284C19DF06608C4716A5971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C368EBBC3E280EB10B565F1DDD44D1C;
+			remoteGlobalIDString = FC282E986A11353585847EB24045ECAF;
+			remoteInfo = "QSXMapModular-QSXMapModular";
+		};
+		84E560C33D32D9E550496983A580DDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6387E410B0A2C2E6E4173FC147244C;
 			remoteInfo = "Pods-QSXMapModular_Example";
 		};
-		8BCC3028F0CA54A946C30ED46CDD27D9 /* PBXContainerItemProxy */ = {
+		C6F15E1DDCB8CF9B436B72103689D0D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A98F0A388EE9BD08D07E884AB6F9A0CF;
+			remoteGlobalIDString = 09A375F74F5148670A111A846E16C857;
 			remoteInfo = QSXMapModular;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0222F48B2F365118CE5382082D09524A /* 暂停@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "暂停@2x.png"; path = "QSXMapModular/Assets/暂停@2x.png"; sourceTree = "<group>"; };
 		0857EA5E6849A8863FD2F383B95AB29F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1F96A84E7EDB45EEABC127CECC27F0 /* SportsMapViewControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SportsMapViewControlManager.h; path = QSXMapModular/Classes/SportsMapViewControlManager.h; sourceTree = "<group>"; };
 		0E4486D38E82B0D1A5745C56E2DE308B /* Pods-QSXMapModular_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSXMapModular_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0E6BE9994DD1C5795ED27099DBEABA9C /* QSXMapModular.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QSXMapModular.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		105B75C50705045ADE549F4E340023A0 /* Pods-QSXMapModular_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QSXMapModular_Example.modulemap"; sourceTree = "<group>"; };
 		13B15C8C2E0E5AD70520964491FE2F3F /* Pods-QSXMapModular_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSXMapModular_Example-resources.sh"; sourceTree = "<group>"; };
-		174D3FF7689A57500D57CA86EB43DA64 /* QSXMapModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSXMapModular-prefix.pch"; sourceTree = "<group>"; };
+		1CED9D8BB105DD197041FBDAB1F1A78C /* ResourceBundle-QSXMapModular-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QSXMapModular-Info.plist"; sourceTree = "<group>"; };
 		23E76D8BBB27B97CC906C4AEE6A09AD9 /* Pods-QSXMapModular_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSXMapModular_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3041E47A74099FB8178207D7A813E734 /* QSXMapModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QSXMapModular.modulemap; sourceTree = "<group>"; };
+		301A30ACDD836A57374AC8A5F848CBF5 /* QSXMapModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSXMapModular-umbrella.h"; sourceTree = "<group>"; };
+		3919CBF48FE78801E4CB249AF7E704F4 /* 结束.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "结束.png"; path = "QSXMapModular/Assets/结束.png"; sourceTree = "<group>"; };
 		3B7DFB0EE75AE067791D9F8C2FEC9791 /* Pods-QSXMapModular_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSXMapModular_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		471E23F3434F7045CB67ECB25F69CE76 /* QSXMAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSXMAPointAnnotation.h; path = QSXMapModular/Classes/QSXMAPointAnnotation.h; sourceTree = "<group>"; };
 		49A0D2A33B2C0099D9C98D7074432898 /* Pods-QSXMapModular_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSXMapModular_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B8CD3F57295808DA122951C08DC0E3E /* Pods-QSXMapModular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSXMapModular_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E94773DA026E72BBCCCD4FA8F69A784 /* Pods-QSXMapModular_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSXMapModular_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		53A1620B6828044CCBCAC1505E2E7442 /* Pods-QSXMapModular_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSXMapModular_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59B8AAA17109F9626F026ED5DB0391A2 /* Pods_QSXMapModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSXMapModular_Example.framework; path = "Pods-QSXMapModular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C0047E0B4A6963B9E5EB461C484215 /* QSXMapModular.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QSXMapModular.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5FD22CEB636EE4AB1D38D0C742D4101C /* Pods-QSXMapModular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSXMapModular_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6DCC12D4D3C20B9E91A12F82C9D547F8 /* 开始@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "开始@2x.png"; path = "QSXMapModular/Assets/开始@2x.png"; sourceTree = "<group>"; };
+		70D55FC60A08848110F5B6494AB0FDE7 /* SportsMapViewControlManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SportsMapViewControlManager.m; path = QSXMapModular/Classes/SportsMapViewControlManager.m; sourceTree = "<group>"; };
 		714AD6B5F2A524A639148FFBAB89EF3D /* Pods-QSXMapModular_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSXMapModular_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7479C30494DC56411548B13C6253FF20 /* FileHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		77D9660390DBF71C718277789FD88681 /* QSXMapModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSXMapModular-prefix.pch"; sourceTree = "<group>"; };
+		783030F1D12804CD1F58C122CB273DD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7D26048282F95EBFCAB0F2293EA3036F /* Pods-QSXMapModular_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSXMapModular_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8551B9E56DCE103949D45DCD93C45376 /* QSXMapModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSXMapModular.xcconfig; sourceTree = "<group>"; };
-		8D1874814D04EA3665034EB9DC99486E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSXMapModular.xcconfig; sourceTree = "<group>"; };
 		8D88C0E06B0E8D8CE66159C564E0FA3E /* Pods-QSXMapModular_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QSXMapModular_Tests.modulemap"; sourceTree = "<group>"; };
+		9379135CB184A9096B77D0E28548F665 /* QSXMapModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSXMapModular-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9463E08CFDD8A912D19ED02DF1954A59 /* Pods_QSXMapModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSXMapModular_Example.framework; path = "Pods-QSXMapModular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9670D3A81793120B851F45436E0FEA82 /* SportsMapViewControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SportsMapViewControlManager.h; path = QSXMapModular/Classes/SportsMapViewControlManager.h; sourceTree = "<group>"; };
+		966F95C7C135992029BB50CC59F52BA4 /* QSXMapModular.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QSXMapModular.bundle; path = "QSXMapModular-QSXMapModular.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		994D1FD1CD6BA3CC102B51911CF4C3B9 /* AMapRouteRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMapRouteRecord.h; sourceTree = "<group>"; };
 		A2C5DA1A95C99BA6714D641800F4BE23 /* Pods-QSXMapModular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSXMapModular_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A91B4218BFEAC863487034CB401CF5D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA2200B8F8D31713F77420171522D4E6 /* Pods-QSXMapModular_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSXMapModular_Example-dummy.m"; sourceTree = "<group>"; };
-		B4A7D2F5A3F9F5F16734DADC0D4A05C7 /* QSXMapModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSXMapModular.framework; path = QSXMapModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA99356575348A43BCA892CBA0B0D68C /* QSXMapModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSXMapModular-umbrella.h"; sourceTree = "<group>"; };
-		CA50645486542F7F581A1874D2CB8ADF /* SportsMapViewControlManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SportsMapViewControlManager.m; path = QSXMapModular/Classes/SportsMapViewControlManager.m; sourceTree = "<group>"; };
+		AA87C23455B8235527351786688B23AF /* 再开始.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "再开始.png"; path = "QSXMapModular/Assets/再开始.png"; sourceTree = "<group>"; };
+		B31232902878A769A9BECA2A7CB6BA0A /* AMapRouteRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AMapRouteRecord.m; sourceTree = "<group>"; };
+		C59E55DF9A1AE6701CEBD5834FFEC940 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7DEFBBB562A133789DDCD25E61C227E /* Pods_QSXMapModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSXMapModular_Tests.framework; path = "Pods-QSXMapModular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88BF91415AA62B51CB2727CADEEFF5C /* Pods-QSXMapModular_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSXMapModular_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E8A23E8DDDC345AAE2C449565D9FC8F3 /* QSXMapModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSXMapModular-dummy.m"; sourceTree = "<group>"; };
-		ED8AEE845DA5DCF44037C9C3219093F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F55B321D4825F79EEC66E5F7B79B9971 /* Pods_QSXMapModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSXMapModular_Tests.framework; path = "Pods-QSXMapModular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09573B3B70939AD4CCF7864DED81BCD /* QSXMAPointAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSXMAPointAnnotation.m; path = QSXMapModular/Classes/QSXMAPointAnnotation.m; sourceTree = "<group>"; };
+		E0C5857705036B7DFD46FC1A5F4FB385 /* SystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		E1B848116E09D888477835A1B29C6041 /* QSXMapModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSXMapModular.framework; path = QSXMapModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EA9CB5B87DE793D05F2A89E8BA058F /* SystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		F4E26A2B95090D992FD1E1198EAFA7D6 /* QSXMapModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QSXMapModular.modulemap; sourceTree = "<group>"; };
+		F56EADF31FEE3B4256655C91E73E0D78 /* FileHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
 		F79AF06273BC14C0665D0C3216E67E65 /* Pods-QSXMapModular_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSXMapModular_Tests-dummy.m"; sourceTree = "<group>"; };
 		FBEFDAAA92270271EDDD0724D88BFE18 /* Pods-QSXMapModular_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSXMapModular_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23CADC55C74E0660C3185E294FB2414C /* Frameworks */ = {
+		2C4FCA229FCAEAF3EA37B28983B45C1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8CA51ECBAAAEA1107165397C721406 /* Foundation.framework in Frameworks */,
+				2BB9DE821D271ACEEF9BFC351227CEC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C8956D6A012E0B4FDBA6270625714A1 /* Frameworks */ = {
+		4AE83EC6A32E6E015A32D6B8A63F12B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8D27B426889048B25CCE01DC48EEF0 /* Foundation.framework in Frameworks */,
+				BD35995AE2264D4876A67AF8AC3809F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76498A04BF1465A682CA6AF37D645B24 /* Frameworks */ = {
+		5D986ADE2F3DC77782F6901BBBDA27BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E12FDFE96BFCEC6CFCA21E5636A7A5F /* Foundation.framework in Frameworks */,
+				112627A4B3EA6867326E8351839F7DE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7327466A4DA2CDF074EDDAACAF279C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB5F691BD2FE9BF476AA46DB215C03C /* Products */ = {
+		3000BC398E6861D662C8AEFF33C1081C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9463E08CFDD8A912D19ED02DF1954A59 /* Pods_QSXMapModular_Example.framework */,
-				F55B321D4825F79EEC66E5F7B79B9971 /* Pods_QSXMapModular_Tests.framework */,
-				B4A7D2F5A3F9F5F16734DADC0D4A05C7 /* QSXMapModular.framework */,
+				783030F1D12804CD1F58C122CB273DD4 /* LICENSE */,
+				59C0047E0B4A6963B9E5EB461C484215 /* QSXMapModular.podspec */,
+				C59E55DF9A1AE6701CEBD5834FFEC940 /* README.md */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1646901227B197050EE2AA145EE70670 /* QSXMapModular */ = {
-			isa = PBXGroup;
-			children = (
-				9670D3A81793120B851F45436E0FEA82 /* SportsMapViewControlManager.h */,
-				CA50645486542F7F581A1874D2CB8ADF /* SportsMapViewControlManager.m */,
-				8C65CF6A9253B8CE322DAEDC67CD2A0A /* Pod */,
-				6AA4B905B5E0FBACA9368EC49DAC02E4 /* Support Files */,
-			);
-			name = QSXMapModular;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		36D9852784E23A972B08432C743BEFFB /* Pods-QSXMapModular_Tests */ = {
@@ -161,6 +190,45 @@
 			path = "Target Support Files/Pods-QSXMapModular_Example";
 			sourceTree = "<group>";
 		};
+		46EF0BC174E09F05921F23A796879597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59B8AAA17109F9626F026ED5DB0391A2 /* Pods_QSXMapModular_Example.framework */,
+				D7DEFBBB562A133789DDCD25E61C227E /* Pods_QSXMapModular_Tests.framework */,
+				966F95C7C135992029BB50CC59F52BA4 /* QSXMapModular.bundle */,
+				E1B848116E09D888477835A1B29C6041 /* QSXMapModular.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB6E934D0CBB90698455A0DEF6A891A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				994D1FD1CD6BA3CC102B51911CF4C3B9 /* AMapRouteRecord.h */,
+				B31232902878A769A9BECA2A7CB6BA0A /* AMapRouteRecord.m */,
+				7479C30494DC56411548B13C6253FF20 /* FileHelper.h */,
+				F56EADF31FEE3B4256655C91E73E0D78 /* FileHelper.m */,
+				F2EA9CB5B87DE793D05F2A89E8BA058F /* SystemInfo.h */,
+				E0C5857705036B7DFD46FC1A5F4FB385 /* SystemInfo.m */,
+			);
+			name = Model;
+			path = QSXMapModular/Classes/Model;
+			sourceTree = "<group>";
+		};
+		51214C25CAF00E789E91E8287E06FCB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E26A2B95090D992FD1E1198EAFA7D6 /* QSXMapModular.modulemap */,
+				7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */,
+				9379135CB184A9096B77D0E28548F665 /* QSXMapModular-dummy.m */,
+				77D9660390DBF71C718277789FD88681 /* QSXMapModular-prefix.pch */,
+				301A30ACDD836A57374AC8A5F848CBF5 /* QSXMapModular-umbrella.h */,
+				1CED9D8BB105DD197041FBDAB1F1A78C /* ResourceBundle-QSXMapModular-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QSXMapModular";
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,46 +237,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6AA4B905B5E0FBACA9368EC49DAC02E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3041E47A74099FB8178207D7A813E734 /* QSXMapModular.modulemap */,
-				8551B9E56DCE103949D45DCD93C45376 /* QSXMapModular.xcconfig */,
-				E8A23E8DDDC345AAE2C449565D9FC8F3 /* QSXMapModular-dummy.m */,
-				174D3FF7689A57500D57CA86EB43DA64 /* QSXMapModular-prefix.pch */,
-				BA99356575348A43BCA892CBA0B0D68C /* QSXMapModular-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QSXMapModular";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				84468AFC6DA7CCD009D7308AF9D2B22B /* Development Pods */,
+				B0EDC5B52F453D817E121851EC2FA79B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0AB5F691BD2FE9BF476AA46DB215C03C /* Products */,
+				46EF0BC174E09F05921F23A796879597 /* Products */,
 				E153761FA4D3A5161F4B701D5DE8C789 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		84468AFC6DA7CCD009D7308AF9D2B22B /* Development Pods */ = {
+		B0EDC5B52F453D817E121851EC2FA79B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1646901227B197050EE2AA145EE70670 /* QSXMapModular */,
+				D6EF7D87E1435ECA72B271D30F58B73E /* QSXMapModular */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8C65CF6A9253B8CE322DAEDC67CD2A0A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8D1874814D04EA3665034EB9DC99486E /* LICENSE */,
-				0E6BE9994DD1C5795ED27099DBEABA9C /* QSXMapModular.podspec */,
-				ED8AEE845DA5DCF44037C9C3219093F4 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -217,6 +262,22 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6EF7D87E1435ECA72B271D30F58B73E /* QSXMapModular */ = {
+			isa = PBXGroup;
+			children = (
+				471E23F3434F7045CB67ECB25F69CE76 /* QSXMAPointAnnotation.h */,
+				E09573B3B70939AD4CCF7864DED81BCD /* QSXMAPointAnnotation.m */,
+				0A1F96A84E7EDB45EEABC127CECC27F0 /* SportsMapViewControlManager.h */,
+				70D55FC60A08848110F5B6494AB0FDE7 /* SportsMapViewControlManager.m */,
+				4DB6E934D0CBB90698455A0DEF6A891A /* Model */,
+				3000BC398E6861D662C8AEFF33C1081C /* Pod */,
+				F81A828F2CE8C756A6772C70A2656CD7 /* Resources */,
+				51214C25CAF00E789E91E8287E06FCB3 /* Support Files */,
+			);
+			name = QSXMapModular;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E153761FA4D3A5161F4B701D5DE8C789 /* Targets Support Files */ = {
@@ -228,89 +289,125 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F81A828F2CE8C756A6772C70A2656CD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA87C23455B8235527351786688B23AF /* 再开始.png */,
+				6DCC12D4D3C20B9E91A12F82C9D547F8 /* 开始@2x.png */,
+				0222F48B2F365118CE5382082D09524A /* 暂停@2x.png */,
+				3919CBF48FE78801E4CB249AF7E704F4 /* 结束.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A9BFE646FA156A8CAF4E363E0C142E8 /* Headers */ = {
+		017547DB6DD32C6C07F0CE8F4218EDC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7BCD8F159B79B4648A26FFA4AC83BC /* Pods-QSXMapModular_Tests-umbrella.h in Headers */,
+				82D9853DD8584CB46BE1B3348778079D /* Pods-QSXMapModular_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B384B4D727A55B5EA4FFB76E8AAD0D4E /* Headers */ = {
+		569CB25212904AA11FB98AC99F3ACEFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221F9724896BAA1F10E3DC9D66F9F178 /* QSXMapModular-umbrella.h in Headers */,
-				4A9746221E2FE7399335A68D7DB38EC2 /* SportsMapViewControlManager.h in Headers */,
+				B40928C5C6CDC54AAE2C4C0E82BF0439 /* Pods-QSXMapModular_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A4CCB6D4C5CF0475CD1379C7D620D9 /* Headers */ = {
+		DBF6A4797A4B542CBC75D6C3E6E7727B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60CCB68901568CE023BDF84B9148D5D /* Pods-QSXMapModular_Example-umbrella.h in Headers */,
+				197727009B55A72C24D910C278E83D7D /* AMapRouteRecord.h in Headers */,
+				657390053EAF2C51906B89E00CC8D11A /* FileHelper.h in Headers */,
+				EBAC54073C61A7C083FBFE7F40D8BC46 /* QSXMapModular-umbrella.h in Headers */,
+				7EBCF8E190F1C0C41B5A19AB3124D66C /* QSXMAPointAnnotation.h in Headers */,
+				0ABE0AC2FD6F22DF34808C907DE04968 /* SportsMapViewControlManager.h in Headers */,
+				DC9E72A748E58A19539063FA4B49BB88 /* SystemInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		196F4E829B33F389CC035E0EC55870F7 /* Pods-QSXMapModular_Tests */ = {
+		09A375F74F5148670A111A846E16C857 /* QSXMapModular */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 347DBF0385D0F9EBF98A5E941F13A3BD /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Tests" */;
+			buildConfigurationList = F8AE798BB108CBF8636C238C0ECD1ABB /* Build configuration list for PBXNativeTarget "QSXMapModular" */;
 			buildPhases = (
-				46BDE9262FA989E0ABF34D6379EE3FB4 /* Sources */,
-				76498A04BF1465A682CA6AF37D645B24 /* Frameworks */,
-				1A9BFE646FA156A8CAF4E363E0C142E8 /* Headers */,
+				DBF6A4797A4B542CBC75D6C3E6E7727B /* Headers */,
+				01061DD889DDE246206E7053B8ECFA62 /* Sources */,
+				2C4FCA229FCAEAF3EA37B28983B45C1D /* Frameworks */,
+				8A80B565EC82D69ECCEF87098EB2BBF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64C7F82CE2D1FB9CEC4259D202551B05 /* PBXTargetDependency */,
-			);
-			name = "Pods-QSXMapModular_Tests";
-			productName = "Pods-QSXMapModular_Tests";
-			productReference = F55B321D4825F79EEC66E5F7B79B9971 /* Pods_QSXMapModular_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C368EBBC3E280EB10B565F1DDD44D1C /* Pods-QSXMapModular_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC027CD6EA9ACE0970A4063CDA7EE4E1 /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Example" */;
-			buildPhases = (
-				174FA62565B217CE3BAC7D79F1FD7ED5 /* Sources */,
-				23CADC55C74E0660C3185E294FB2414C /* Frameworks */,
-				D7A4CCB6D4C5CF0475CD1379C7D620D9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FBEC15E51A59DC4AF256866006E8FA7 /* PBXTargetDependency */,
-			);
-			name = "Pods-QSXMapModular_Example";
-			productName = "Pods-QSXMapModular_Example";
-			productReference = 9463E08CFDD8A912D19ED02DF1954A59 /* Pods_QSXMapModular_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A98F0A388EE9BD08D07E884AB6F9A0CF /* QSXMapModular */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25CA72FC002F265F711062CB8E04425D /* Build configuration list for PBXNativeTarget "QSXMapModular" */;
-			buildPhases = (
-				F40253FB70FB4FAEA60FA42E20C037B6 /* Sources */,
-				3C8956D6A012E0B4FDBA6270625714A1 /* Frameworks */,
-				B384B4D727A55B5EA4FFB76E8AAD0D4E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				10674579B1A3EBF57EC230A6516FF8C1 /* PBXTargetDependency */,
 			);
 			name = QSXMapModular;
 			productName = QSXMapModular;
-			productReference = B4A7D2F5A3F9F5F16734DADC0D4A05C7 /* QSXMapModular.framework */;
+			productReference = E1B848116E09D888477835A1B29C6041 /* QSXMapModular.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		2F6387E410B0A2C2E6E4173FC147244C /* Pods-QSXMapModular_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28A5B8F4EF5BF9872B3387A0F1A5B1D /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Example" */;
+			buildPhases = (
+				017547DB6DD32C6C07F0CE8F4218EDC5 /* Headers */,
+				8C56BEC978AF7DD7A4E1D3BAB68C1BD6 /* Sources */,
+				5D986ADE2F3DC77782F6901BBBDA27BC /* Frameworks */,
+				87C3834C4D2B8936E5159E984616D1C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E577A78152844F7E93F87C174DDE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-QSXMapModular_Example";
+			productName = "Pods-QSXMapModular_Example";
+			productReference = 59B8AAA17109F9626F026ED5DB0391A2 /* Pods_QSXMapModular_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFEC9538FC6558C4A9CC728AF343DAFF /* Pods-QSXMapModular_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8489E335B8838EA7B1F7863C990308 /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Tests" */;
+			buildPhases = (
+				569CB25212904AA11FB98AC99F3ACEFD /* Headers */,
+				24C9E9111460C67DB86BCAB1CF022874 /* Sources */,
+				4AE83EC6A32E6E015A32D6B8A63F12B9 /* Frameworks */,
+				7A6B8608E3A9DE03FB85776F3085188D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F21E43DB7A0BB1EF28B452BB304C3F /* PBXTargetDependency */,
+			);
+			name = "Pods-QSXMapModular_Tests";
+			productName = "Pods-QSXMapModular_Tests";
+			productReference = D7DEFBBB562A133789DDCD25E61C227E /* Pods_QSXMapModular_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC282E986A11353585847EB24045ECAF /* QSXMapModular-QSXMapModular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3386CC5A46786DE7DF679D887767EE1C /* Build configuration list for PBXNativeTarget "QSXMapModular-QSXMapModular" */;
+			buildPhases = (
+				784E08FB9E99E08A0A8097B4C7ED4E59 /* Sources */,
+				9D7327466A4DA2CDF074EDDAACAF279C /* Frameworks */,
+				1CB841BF2857DDB7B839E5A30F8F9266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QSXMapModular-QSXMapModular";
+			productName = "QSXMapModular-QSXMapModular";
+			productReference = 966F95C7C135992029BB50CC59F52BA4 /* QSXMapModular.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -329,64 +426,165 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0AB5F691BD2FE9BF476AA46DB215C03C /* Products */;
+			productRefGroup = 46EF0BC174E09F05921F23A796879597 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C368EBBC3E280EB10B565F1DDD44D1C /* Pods-QSXMapModular_Example */,
-				196F4E829B33F389CC035E0EC55870F7 /* Pods-QSXMapModular_Tests */,
-				A98F0A388EE9BD08D07E884AB6F9A0CF /* QSXMapModular */,
+				2F6387E410B0A2C2E6E4173FC147244C /* Pods-QSXMapModular_Example */,
+				BFEC9538FC6558C4A9CC728AF343DAFF /* Pods-QSXMapModular_Tests */,
+				09A375F74F5148670A111A846E16C857 /* QSXMapModular */,
+				FC282E986A11353585847EB24045ECAF /* QSXMapModular-QSXMapModular */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1CB841BF2857DDB7B839E5A30F8F9266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D50B54218C5F66233BFE992E8EDB7E /* 再开始.png in Resources */,
+				D7DD1736045F1576EA4572CB3C81B205 /* 开始@2x.png in Resources */,
+				9DAADAD56A548CD37A968893B092BABE /* 暂停@2x.png in Resources */,
+				E4A1F4F8202C2BFA6FF5BC02778A289E /* 结束.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6B8608E3A9DE03FB85776F3085188D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C3834C4D2B8936E5159E984616D1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A80B565EC82D69ECCEF87098EB2BBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DCE0874F20A77A78D55021D93DF1DB /* QSXMapModular.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		174FA62565B217CE3BAC7D79F1FD7ED5 /* Sources */ = {
+		01061DD889DDE246206E7053B8ECFA62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5374BE1F2A9811AC61F74449D204457A /* Pods-QSXMapModular_Example-dummy.m in Sources */,
+				1D6ECECF2302AC79C628FF198923BA07 /* AMapRouteRecord.m in Sources */,
+				12AF083AEFF53B7F9AAB3D7563129ADC /* FileHelper.m in Sources */,
+				6041CADBD97FCF3122E96D060CC515CF /* QSXMapModular-dummy.m in Sources */,
+				681A14400504B64CF765D93C2EF3F8B0 /* QSXMAPointAnnotation.m in Sources */,
+				7EEEFE87B4E66805C115612487FB2E83 /* SportsMapViewControlManager.m in Sources */,
+				82331FD2F38C015AE674BD0DAC85934C /* SystemInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46BDE9262FA989E0ABF34D6379EE3FB4 /* Sources */ = {
+		24C9E9111460C67DB86BCAB1CF022874 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4E23E91AB39518768841FAE289C5FA /* Pods-QSXMapModular_Tests-dummy.m in Sources */,
+				17A431D056FC16C5AC08175A803C0077 /* Pods-QSXMapModular_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40253FB70FB4FAEA60FA42E20C037B6 /* Sources */ = {
+		784E08FB9E99E08A0A8097B4C7ED4E59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C22FA9F8F7DF831722BF4C6C86BFF0B /* QSXMapModular-dummy.m in Sources */,
-				035A45B3EC74BA1017E03760063B3D79 /* SportsMapViewControlManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C56BEC978AF7DD7A4E1D3BAB68C1BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0B11AB86E11FEDBCB6E22EC80B038D /* Pods-QSXMapModular_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FBEC15E51A59DC4AF256866006E8FA7 /* PBXTargetDependency */ = {
+		10674579B1A3EBF57EC230A6516FF8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QSXMapModular-QSXMapModular";
+			target = FC282E986A11353585847EB24045ECAF /* QSXMapModular-QSXMapModular */;
+			targetProxy = 651379FE9284C19DF06608C4716A5971 /* PBXContainerItemProxy */;
+		};
+		590E577A78152844F7E93F87C174DDE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QSXMapModular;
-			target = A98F0A388EE9BD08D07E884AB6F9A0CF /* QSXMapModular */;
-			targetProxy = 8BCC3028F0CA54A946C30ED46CDD27D9 /* PBXContainerItemProxy */;
+			target = 09A375F74F5148670A111A846E16C857 /* QSXMapModular */;
+			targetProxy = C6F15E1DDCB8CF9B436B72103689D0D4 /* PBXContainerItemProxy */;
 		};
-		64C7F82CE2D1FB9CEC4259D202551B05 /* PBXTargetDependency */ = {
+		93F21E43DB7A0BB1EF28B452BB304C3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QSXMapModular_Example";
-			target = 6C368EBBC3E280EB10B565F1DDD44D1C /* Pods-QSXMapModular_Example */;
-			targetProxy = 080EBF80574DD598C2F91B436365C821 /* PBXContainerItemProxy */;
+			target = 2F6387E410B0A2C2E6E4173FC147244C /* Pods-QSXMapModular_Example */;
+			targetProxy = 84E560C33D32D9E550496983A580DDB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C087ABCA678B4CB5A2FD2779C8B9FFF /* Debug */ = {
+		042A4FC00A2755A028C93629A091A05D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E76D8BBB27B97CC906C4AEE6A09AD9 /* Pods-QSXMapModular_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QSXMapModular";
+				INFOPLIST_FILE = "Target Support Files/QSXMapModular/ResourceBundle-QSXMapModular-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QSXMapModular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		178ED53F4244A00F00AD911CFC08B022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QSXMapModular/QSXMapModular-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/QSXMapModular/QSXMapModular.modulemap";
+				PRODUCT_MODULE_NAME = QSXMapModular;
+				PRODUCT_NAME = QSXMapModular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C6CB55C821CDF5706B53A924114A8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8CD3F57295808DA122951C08DC0E3E /* Pods-QSXMapModular_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -398,12 +596,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Tests/Pods-QSXMapModular_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Example/Pods-QSXMapModular_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -417,9 +615,118 @@
 			};
 			name = Debug;
 		};
-		3F7F5730EDD54D265ACEFB8590A6FCE2 /* Debug */ = {
+		3D80A1593D80C4E589A413A23881809F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8551B9E56DCE103949D45DCD93C45376 /* QSXMapModular.xcconfig */;
+			baseConfigurationReference = 5FD22CEB636EE4AB1D38D0C742D4101C /* Pods-QSXMapModular_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Example/Pods-QSXMapModular_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		694F947EB5D9D45B308E73B5126BFCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QSXMapModular";
+				INFOPLIST_FILE = "Target Support Files/QSXMapModular/ResourceBundle-QSXMapModular-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QSXMapModular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		80F8396B4279343B862C987C0DECA3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D584B8301F09A4CEAE6BBFC96649A2C /* QSXMapModular.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -447,7 +754,41 @@
 			};
 			name = Debug;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		A74AE3C0B5BDED45AA30CA4657D68344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C5DA1A95C99BA6714D641800F4BE23 /* Pods-QSXMapModular_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Tests/Pods-QSXMapModular_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,7 +842,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -510,134 +852,9 @@
 			};
 			name = Debug;
 		};
-		9A4D040C36A5156CF32A8E56E835D57F /* Release */ = {
+		FAAAF61E2BD2B5DE1470CB8A0471D19A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FD22CEB636EE4AB1D38D0C742D4101C /* Pods-QSXMapModular_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Example/Pods-QSXMapModular_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A573F2CA488A8575B630644AF48CA7A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B8CD3F57295808DA122951C08DC0E3E /* Pods-QSXMapModular_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QSXMapModular_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSXMapModular_Example/Pods-QSXMapModular_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F1C80DADEF4B7AA0084319B0CCECC928 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2C5DA1A95C99BA6714D641800F4BE23 /* Pods-QSXMapModular_Tests.release.xcconfig */;
+			baseConfigurationReference = 23E76D8BBB27B97CC906C4AEE6A09AD9 /* Pods-QSXMapModular_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -663,78 +880,55 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		FE03F6277C0D448D65EBC95B2C57F343 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8551B9E56DCE103949D45DCD93C45376 /* QSXMapModular.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QSXMapModular/QSXMapModular-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/QSXMapModular/QSXMapModular.modulemap";
-				PRODUCT_MODULE_NAME = QSXMapModular;
-				PRODUCT_NAME = QSXMapModular;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25CA72FC002F265F711062CB8E04425D /* Build configuration list for PBXNativeTarget "QSXMapModular" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F7F5730EDD54D265ACEFB8590A6FCE2 /* Debug */,
-				FE03F6277C0D448D65EBC95B2C57F343 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		347DBF0385D0F9EBF98A5E941F13A3BD /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Tests" */ = {
+		3386CC5A46786DE7DF679D887767EE1C /* Build configuration list for PBXNativeTarget "QSXMapModular-QSXMapModular" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C087ABCA678B4CB5A2FD2779C8B9FFF /* Debug */,
-				F1C80DADEF4B7AA0084319B0CCECC928 /* Release */,
+				042A4FC00A2755A028C93629A091A05D /* Debug */,
+				694F947EB5D9D45B308E73B5126BFCF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC027CD6EA9ACE0970A4063CDA7EE4E1 /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Example" */ = {
+		BD8489E335B8838EA7B1F7863C990308 /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A573F2CA488A8575B630644AF48CA7A5 /* Debug */,
-				9A4D040C36A5156CF32A8E56E835D57F /* Release */,
+				FAAAF61E2BD2B5DE1470CB8A0471D19A /* Debug */,
+				A74AE3C0B5BDED45AA30CA4657D68344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28A5B8F4EF5BF9872B3387A0F1A5B1D /* Build configuration list for PBXNativeTarget "Pods-QSXMapModular_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6CB55C821CDF5706B53A924114A8D0 /* Debug */,
+				3D80A1593D80C4E589A413A23881809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AE798BB108CBF8636C238C0ECD1ABB /* Build configuration list for PBXNativeTarget "QSXMapModular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F8396B4279343B862C987C0DECA3F5 /* Debug */,
+				178ED53F4244A00F00AD911CFC08B022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
